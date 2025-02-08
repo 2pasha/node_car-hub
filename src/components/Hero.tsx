@@ -1,7 +1,7 @@
 "use client";
 
-import Image from 'next/image';
-import CustomButton from './CustomButton';
+import Image from "next/image";
+import CustomButton from "./CustomButton";
 
 const Hero = () => {
   const handleScroll = () => {};
@@ -14,10 +14,11 @@ const Hero = () => {
         </h1>
 
         <p className="hero__subtitle">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, necessitatibus?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+          necessitatibus?
         </p>
 
-        <CustomButton 
+        <CustomButton
           title="Explore Cars"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handleClick={handleScroll}
@@ -27,12 +28,12 @@ const Hero = () => {
       <div className="hero__image-container">
         <div className="hero__image">
           <Image src="/hero.png" alt="hero" fill className="object-contain" />
-
-          <div className="hero__image-overlay" />
         </div>
+
+        <div className="hero__image-overlay" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
