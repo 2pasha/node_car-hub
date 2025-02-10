@@ -10,6 +10,8 @@
     "build:css": "tailwindcss -i ./src/app/globals.css -o ./dist/output.css"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
     "@tailwindcss/postcss": "^4.0.4",
     "next": "15.1.6",
     "react": "^19.0.0",
