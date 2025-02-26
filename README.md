@@ -1,5 +1,9 @@
 # [DEMO LINK](https://node-car-hub-vr4p.vercel.app/)
 
+## // TO DO
+- move this project to another API, because this have some limits in BASIC subscription
+##
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
