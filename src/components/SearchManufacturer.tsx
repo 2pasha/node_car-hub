@@ -72,7 +72,7 @@ const SearchManufacturer = ({
                     }`
                   }
                 >
-                  {({ active, selected }) => (
+                  {({ active }) => (
                     <span
                       className={`${
                         active
